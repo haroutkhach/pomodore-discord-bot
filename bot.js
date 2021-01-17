@@ -74,12 +74,12 @@ class Pomodoro {
 
     this.timerStartedTime = new Date();
 
-    this.dispatcher = this.connection.play('./sounds/time-over.ogg', {
+    this.dispatcher = this.connection.play('./sounds/Rich_Brian_-_watch_out-AudioTrimmer.com.mp3', {
       volume: this.volume,
     });
 
     this.dispatcher.on('finish', () => {
-      this.dispatcher = this.connection.play('./sounds/silence-fixer.ogg');
+      this.dispatcher = this.connection.play('./sounds/Rich_Brian_-_watch_out-AudioTrimmer.com.mp3');
     });
 
     this.timer = setTimeout(() => {
