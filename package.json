@@ -1,5 +1,5 @@
 {
-  "name": "pomodore",
+  "name": "pomodoro",
   "version": "1.0.0",
   "engines": {
     "node": "14.15.1"
